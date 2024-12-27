@@ -16,14 +16,14 @@ import json
 
 
 # Constants
-BROWSER_BINARY_PATH = "C:\\Users\\nasir\\Desktop\\chrome-win32\\chrome.exe"
-MONGO_URI = 'mongodb+srv://nasirnaqashh:Nasir_123@cluster0.yf3hl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+BROWSER_BINARY_PATH = "Your Browser Path"
+MONGO_URI = 'Your MongoDB URI'
 TWITTER_LOGIN_URL = 'https://x.com/i/flow/login'
-PROXYMESH_URL = 'http://nasirnaqash:Nasir_123@us-ca.proxymesh.com:31280'
-USERNAME = 'naqjnas'
-PASSWORD = 'Nasir@123'
-CHROME_DRIVER_PATH = "C:\\Users\\nasir\\Desktop\\browserDriver\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe"
-EMAIL = 'nasirnaqashh@gmail.com'
+PROXYMESH_URL = 'Not Configured'
+USERNAME = 'Your Twitter Username'
+PASSWORD = 'Your Twitter Password'
+CHROME_DRIVER_PATH = "Your chrome driver path" #Download here: https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.204/win32/chromedriver-win32.zip
+EMAIL = 'Your Twitter Email Address'
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
